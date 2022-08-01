@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/maskFragment">
+
+    <fragment
+        android:id="@+id/maskFragment"
+        android:name="com.shoxrux.covid19.ui.onboardFragments.MaskFragment"
+        android:label="fragment_mask"
+        tools:layout="@layout/fragment_mask" />
+    <fragment
+        android:id="@+id/washFragment"
+        android:name="com.shoxrux.covid19.ui.onboardFragments.WashFragment"
+        android:label="fragment_wash"
+        tools:layout="@layout/fragment_wash" />
+    <fragment
+        android:id="@+id/distancingFragment"
+        android:name="com.shoxrux.covid19.ui.onboardFragments.DistancingFragment"
+        android:label="fragment_distancing"
+        tools:layout="@layout/fragment_distancing" />
+</navigation>
