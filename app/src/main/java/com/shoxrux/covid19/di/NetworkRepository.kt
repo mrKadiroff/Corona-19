@@ -10,7 +10,7 @@ class NetworkRepository @Inject constructor(
 ) {
 
     suspend fun getTopHeadlines(): Response<CovidResults> {
-        return topHeadlinesApi.getCovidResults("covid","2022-07-28","publishedAt","06a47076dd5e42f087a92e24ffcb32fb")
+        return topHeadlinesApi.getCovidResults("covid","publishedAt","06a47076dd5e42f087a92e24ffcb32fb")
     }
 
 }

@@ -3,21 +3,40 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/maskFragment">
-
+    app:startDestination="@id/homeFragment">
     <fragment
-        android:id="@+id/maskFragment"
-        android:name="com.shoxrux.covid19.ui.onboardFragments.MaskFragment"
-        android:label="fragment_mask"
-        tools:layout="@layout/fragment_mask" />
+        android:id="@+id/homeFragment"
+        android:name="com.shoxrux.covid19.ui.mainFragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
     <fragment
-        android:id="@+id/washFragment"
-        android:name="com.shoxrux.covid19.ui.onboardFragments.WashFragment"
-        android:label="fragment_wash"
-        tools:layout="@layout/fragment_wash" />
+        android:id="@+id/statysticsFragment"
+        android:name="com.shoxrux.covid19.ui.mainFragments.StatysticsFragment"
+        android:label="fragment_statystics"
+        tools:layout="@layout/fragment_statystics" />
     <fragment
-        android:id="@+id/distancingFragment"
-        android:name="com.shoxrux.covid19.ui.onboardFragments.DistancingFragment"
-        android:label="fragment_distancing"
-        tools:layout="@layout/fragment_distancing" />
+        android:id="@+id/symptomsFragment"
+        android:name="com.shoxrux.covid19.ui.mainFragments.SymptomsFragment"
+        android:label="fragment_symptoms"
+        tools:layout="@layout/fragment_symptoms" />
+    <fragment
+        android:id="@+id/preventationFragment"
+        android:name="com.shoxrux.covid19.ui.mainFragments.PreventationFragment"
+        android:label="fragment_preventation"
+        tools:layout="@layout/fragment_preventation" />
+    <fragment
+        android:id="@+id/articleFragment"
+        android:name="com.shoxrux.covid19.ui.mainFragments.ArticleFragment"
+        android:label="fragment_article"
+        tools:layout="@layout/fragment_article" />
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.shoxrux.covid19.ui.mainFragments.NewsFragment"
+        android:label="fragment_news"
+        tools:layout="@layout/fragment_news" />
+    <fragment
+        android:id="@+id/helpFragment"
+        android:name="com.shoxrux.covid19.ui.mainFragments.HelpFragment"
+        android:label="fragment_help"
+        tools:layout="@layout/fragment_help" />
 </navigation>

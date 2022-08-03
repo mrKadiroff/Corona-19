@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single"/>
+
+
+    <item
+        android:id="@+id/homeFragment"
+        android:title="Home"
+        android:icon="@drawable/uycha"/>
+    <item
+        android:id="@+id/statysticsFragment"
+        android:title="Statistics"
+        android:icon="@drawable/statist"
+        />
+    <item
+        android:id="@+id/symptomsFragment"
+        android:title="Symptoms"
+        android:icon="@drawable/symptoms"/>
+
+    <item
+        android:id="@+id/preventationFragment"
+        android:title="Preventation"
+        android:icon="@drawable/prevention"/>
+
+    <item
+        android:id="@+id/articleFragment"
+        android:title="Article"
+        android:icon="@drawable/article"/>
+
+    <item
+        android:id="@+id/newsFragment"
+        android:title="News"
+        android:icon="@drawable/news"/>
+
+    <item
+        android:id="@+id/helpFragment"
+        android:title="Help"
+        android:icon="@drawable/help"/>
+
+</menu>

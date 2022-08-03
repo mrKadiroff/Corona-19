@@ -10,7 +10,6 @@ interface ApiService {
     @GET("v2/everything")
     suspend fun getCovidResults(
         @Query("q") q: String,
-        @Query("from") from: String,
         @Query("sortBy") sortBy: String,
         @Query("apiKey") apiKey: String,
     ): Response<CovidResults>
